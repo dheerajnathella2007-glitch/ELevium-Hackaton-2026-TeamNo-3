@@ -1,0 +1,24 @@
+The Smart Radar Equipment Health Monitoring System is an embedded-based monitoring system designed to continuously monitor the operating condition of radar equipment and detect abnormal environmental and mechanical conditions.
+
+In this project, we use an ESP32 microcontroller, DHT11 temperature and humidity sensor, and MPU6050 vibration and motion sensor to monitor the health of radar equipment.
+
+The DHT11 sensor measures the temperature and humidity inside the radar equipment enclosure. This helps identify overheating and unsuitable environmental conditions that may affect electronic components.
+
+The MPU6050 sensor measures vibration, acceleration, and angular motion. It helps identify unusual vibrations, mechanical disturbances, or abnormal movement that could indicate potential equipment faults.
+
+The ESP32 collects data from both sensors and processes the readings. Based on predefined threshold values, the system identifies normal and abnormal operating conditions. LEDs can indicate the equipment status:
+ *Green LED: Normal operating condition.
+ *Yellow LED: Warning condition.
+ *Red LED: Abnormal condition or possible fault.
+The collected sensor data can also be displayed on an LCD or a web-based dashboard for real-time monitoring.
+
+Main objectives:
+1. Monitor the temperature and humidity of radar equipment.
+2. Detect abnormal vibrations using the MPU6050.
+3. Identify possible faults at an early stage.
+4. Provide real-time equipment health status.
+5. Reduce unexpected equipment failures.
+6. Improve equipment reliability and maintenance efficiency.
+
+Expected outcome
+The proposed system provides a low-cost, real-time monitoring solution that detects abnormal temperature, humidity, and vibration conditions. It helps identify potential equipment problems before they become serious failures, thereby improving the reliability, safety, and maintenance of radar equipment.
